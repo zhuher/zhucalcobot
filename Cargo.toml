@@ -4,4 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-evalexpr = "11.3.0"
+evalexpr = { version = "11.3.0", features = [ "serde_support", "rand" ] }
+teloxide = { version = "0.12.2", features = [ "full" ] }
+tokio = { version = "1.37.0", features = [ "full" ] }
+libm = "0.2.8"
+serde = { version = "1.0.202", features = [ "derive" ] }
