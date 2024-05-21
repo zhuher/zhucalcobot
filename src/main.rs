@@ -63,6 +63,7 @@ async fn receive_expression(bot: Bot, dialogue: MyDialogue, msg: Message) -> Han
 Example 1: `math::sin(0.5) + math::cos(0.5)`
 Example 2: /functions
 Example 3: `a = 1; b = 2; a + b`
+Example 4: `test_str = "Hello, World!"; str::to_uppercase(test_str)`
 Available commands: /help, /clear, /start, /exit, /context, /functions, /operators"#
                         )
                     }
